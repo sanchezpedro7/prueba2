@@ -1,0 +1,36 @@
+:root{
+	--general-color: #666;
+    --title-color: #000;
+    --card-background: #494949;
+    --counter-background: #010101;
+    --orange-color: #fe8f01;
+	
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+    color: var(--general-color);
+	padding: 15px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+	padding: 15px 0;
+}
+
+.card {
+    background-color: var(--card-background);
+    color: white;
+	padding: 15px 0;
+}
+
+.counter-section {
+    background-color: var(--counter-background);
+	padding: 15px 0;
+}
+
+.carousel-caption {
+    color: var(--orange-color);
+}
+
+
+
